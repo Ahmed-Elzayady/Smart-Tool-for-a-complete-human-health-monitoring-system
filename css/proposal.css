@@ -100,9 +100,8 @@ body {
   /* background-attachment: fixed; */
   background-position: center;
   box-sizing: border-box;
-font-family: "IBM Plex Mono", monospace;;
+  font-family: "IBM Plex Mono", monospace;
 }
-
 
 h1.main {
   text-align: center;
@@ -112,10 +111,9 @@ h1.main {
   /* width: fit-content; */
   margin-top: 15px;
   margin-bottom: 100px;
-
 }
 
-.all .container  h2 {
+.all .container h2 {
   font-size: 60px;
   color: var(--main-color);
   border-bottom: 2px solid var(--sec-color);
@@ -130,8 +128,7 @@ h1.main {
   font-size: 40px;
 }
 
-
- ul li {
+ul li {
   font-size: 30px;
   padding-bottom: 25px;
 }
@@ -143,28 +140,25 @@ h1.main {
 
 .intro {
   margin-bottom: 160px;
-
 }
 
 .app {
-  margin-bottom: 160px ;
+  margin-bottom: 160px;
 }
 
- p.logo {
+p.logo {
   font-size: 40px;
   color: var(--main-color);
   border-bottom: 2px solid var(--sec-color);
   padding: 10px;
   word-break: break-all;
-  
 }
 
 .imp {
   margin-bottom: 160px;
 }
 
-
- p.text {
+p.text {
   line-height: 1.8;
   font-size: 30px;
 }
