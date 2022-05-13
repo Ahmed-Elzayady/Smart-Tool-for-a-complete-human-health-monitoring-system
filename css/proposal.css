@@ -100,4 +100,69 @@ body {
   /* background-attachment: fixed; */
   background-position: center;
   box-sizing: border-box;
+font-family: "IBM Plex Mono", monospace;;
+}
+
+
+h1.main {
+  text-align: center;
+  color: var(--sec-color);
+  font-weight: bold;
+  box-shadow: 0px 6px 24px 0px rgb(0 0 0 / 20%);
+  /* width: fit-content; */
+  margin-top: 15px;
+  margin-bottom: 100px;
+
+}
+
+.all .container  h2 {
+  font-size: 60px;
+  color: var(--main-color);
+  border-bottom: 2px solid var(--sec-color);
+  padding: 10px;
+}
+
+.all .container .agenda {
+  margin-bottom: 160px;
+}
+
+.all .container .agenda p {
+  font-size: 40px;
+}
+
+
+ ul li {
+  font-size: 30px;
+  padding-bottom: 25px;
+}
+
+.all .container .intro p {
+  line-height: 1.8;
+  font-size: 30px;
+}
+
+.intro {
+  margin-bottom: 160px;
+
+}
+
+.app {
+  margin-bottom: 160px ;
+}
+
+ p.logo {
+  font-size: 40px;
+  color: var(--main-color);
+  border-bottom: 2px solid var(--sec-color);
+  padding: 10px;
+}
+
+.imp {
+  margin-bottom: 160px;
+}
+
+
+ p.text {
+  line-height: 1.8;
+  font-size: 30px;
 }
