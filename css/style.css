@@ -224,7 +224,12 @@ img.top {
 .section .landing .container .all .image img {
   width: 835px;
 }
+@media (max-width: 866px) { 
+  .team .container .all-team .one-person .text h3 {
+    margin-right: 20px;
+  }
 
+}
 @media (max-width: 856px) {
   .section header .container .father .links ul {
     display: block;
