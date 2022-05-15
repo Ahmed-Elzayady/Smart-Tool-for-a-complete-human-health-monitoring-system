@@ -56,16 +56,15 @@ html {
   animation-iteration-count: infinite;
   animation-direction: alternate-reverse;
   z-index: 678678977897;
-
 }
-@media(max-width: 1065px) {
+@media (max-width: 1065px) {
   .team .container .all-team .one-person {
     transform: scale(1) !important;
     -webkit-transform: scale(1) !important;
     -moz-transform: scale(1) !important;
     -ms-transform: scale(1) !important;
     -o-transform: scale(1) !important;
-}
+  }
 }
 .fa-angle-double-up:hover {
   animation-play-state: paused;
@@ -210,17 +209,14 @@ img.top {
   font-weight: bolder;
 }
 
-  .section .landing .container .all .text {
-    max-width: 766px;
-    text-align: center;
-    left: 50%;
-    position: relative;
-    line-height: 1.8;
-    font-family: Arial, Helvetica, sans-serif;
+.section .landing .container .all .text {
+  max-width: 766px;
+  text-align: center;
+  left: 50%;
+  position: relative;
+  line-height: 1.8;
+  font-family: Arial, Helvetica, sans-serif;
 }
-
-
-
 
 .section .landing .container .all .image img {
   width: 835px;
@@ -279,7 +275,7 @@ img.top {
   }
 }
 
-@media(max-width:1632px) {
+@media (max-width: 1632px) {
   .section .landing .container .all .text {
     width: auto;
     /* max-width: 600px; */
@@ -291,10 +287,10 @@ img.top {
     font-family: Arial, Helvetica, sans-serif;
     /* margin-right: 370px; */
     left: auto;
-    position:auto;
+    position: auto;
   }
-  .about .container .all .photo{
-  display: none;
+  .about .container .all .photo {
+    display: none;
   }
 }
 /* start about section */
@@ -507,7 +503,7 @@ img.top {
   -o-transform: scale(1.1);
 }
 
-@media(max-width: 800px) {
+@media (max-width: 800px) {
   .team .container .all-team .last {
     display: none;
   }
@@ -520,6 +516,7 @@ footer {
   padding: 10px;
   text-align: center;
   font-family: "IBM Plex Mono", monospace;
+  border-top: 1px solid var(--sec-color);
 }
 
 footer a {
@@ -635,3 +632,34 @@ a.link:hover:after {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
+
+.end {
+  background-color: var(--main-color);
+  /* width: 100%; */
+  padding: 20px;
+}
+
+.end .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  flex-wrap: wrap;
+}
+
+.end .container .qr img {
+  max-width: 300px;
+  background-color: #fff;
+  /* width: fit-content; */
+}
+
+.end .container img {
+  background-color: #fff;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+
