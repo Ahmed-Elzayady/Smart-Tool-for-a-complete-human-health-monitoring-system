@@ -235,6 +235,10 @@ img.top {
     margin: 0;
     padding: 0;
     display: none;
+    
+  }
+  .team .container .all-team .one-person .text h3 {
+    margin-right: 20px;
   }
   .section header .container .father:hover ul {
     display: block;
