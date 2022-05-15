@@ -137,6 +137,7 @@ img.top {
 .section {
   height: 100vh;
   background-image: url(../images/health.png);
+  background-position: center;
 }
 .section header {
   /* background-color: rgb(1, 23, 53); */
