@@ -666,3 +666,7 @@ a.link:hover:after {
 .end .container .image-coll {
   box-shadow: 2px 0px 82px 12px #fff;
 }
+
+.end .container .kk {
+  margin: 20px;
+}
