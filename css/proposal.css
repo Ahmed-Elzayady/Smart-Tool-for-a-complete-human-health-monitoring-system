@@ -113,13 +113,18 @@ h1.main {
   margin-bottom: 100px;
 }
 
-.all .container h2 {
+.all .container h2 
+{
   font-size: 60px;
   color: var(--main-color);
   border-bottom: 2px solid var(--sec-color);
   padding: 10px;
 }
-
+h3 {
+  font-size: 30px;
+  color: var(--main-color);
+  padding: 10px;
+}
 .all .container .agenda {
   margin-bottom: 160px;
 }
@@ -158,7 +163,44 @@ p.logo {
   margin-bottom: 160px;
 }
 
-p.text {
+p.text,
+p.fg {
+  line-height: 1.8;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+p.fg {
+  margin-bottom: 150px;
+}
+
+p.prob {
+  line-height: 1.8;
+  font-size: 30px;
+  margin-bottom: 150px;
+}
+
+.phottoes {
+  border: 5px solid var(--main-color);
+  margin: 10px;
+}
+
+.phottoes img {
+  max-width: 100%;
+}
+
+.sem,
+.block {
+  border: 5px solid var(--main-color);
+}
+.sem {
+  margin-bottom: 20px;
+}
+
+img {
+  max-width: 100%;
+}
+
+p.fut {
   line-height: 1.8;
   font-size: 30px;
 }
