@@ -131,8 +131,14 @@ img.top {
 }
 
 .section header .container .logo img {
-  width: 40px;
-  min-width: 40px;
+  width: 60px;
+  min-width: 60px;
+  background-color: #fff;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
 }
 .section {
   height: 100vh;
